@@ -3,7 +3,7 @@ let quantityInput = document.getElementById('remaining-chars');
 
 let maxAllowedChars = nameInput.maxLength; //set max length permanently
 
-function updateChars(event) {
+function updateChars() {
     // which value is entered
     let enteredText = nameInput.value;
     let enteredTextLength = enteredText.length;
